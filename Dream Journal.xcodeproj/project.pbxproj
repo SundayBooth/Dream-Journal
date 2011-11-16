@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55528F71143B921A001AC777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55528F70143B921A001AC777 /* UIKit.framework */; };
+		55528F73143B921A001AC777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55528F72143B921A001AC777 /* Foundation.framework */; };
+		55528F75143B921A001AC777 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55528F74143B921A001AC777 /* CoreGraphics.framework */; };
+		55528F7B143B921A001AC777 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55528F79143B921A001AC777 /* InfoPlist.strings */; };
+		55528F7D143B921A001AC777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55528F7C143B921A001AC777 /* main.m */; };
+		55528F81143B921A001AC777 /* Dream_JournalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55528F80143B921A001AC777 /* Dream_JournalAppDelegate.m */; };
+		55528F84143B921A001AC777 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55528F82143B921A001AC777 /* MainWindow.xib */; };
+		55528F87143B921A001AC777 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55528F86143B921A001AC777 /* DetailViewController.m */; };
+		55528F8A143B921A001AC777 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55528F88143B921A001AC777 /* DetailView.xib */; };
+		55528F8D143B921A001AC777 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55528F8C143B921A001AC777 /* RootViewController.m */; };
+		55528F95143B921A001AC777 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55528F94143B921A001AC777 /* SenTestingKit.framework */; };
+		55528F96143B921A001AC777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55528F70143B921A001AC777 /* UIKit.framework */; };
+		55528F97143B921A001AC777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55528F72143B921A001AC777 /* Foundation.framework */; };
+		55528F98143B921A001AC777 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55528F74143B921A001AC777 /* CoreGraphics.framework */; };
+		55528FA0143B921A001AC777 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55528F9E143B921A001AC777 /* InfoPlist.strings */; };
+		55528FA2143B921A001AC777 /* Dream_JournalTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 55528FA1143B921A001AC777 /* Dream_JournalTests.h */; };
+		55528FA4143B921A001AC777 /* Dream_JournalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55528FA3143B921A001AC777 /* Dream_JournalTests.m */; };
+		559A8F381474206D009E27DE /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A8F371474206D009E27DE /* AddViewController.m */; };
+		559A8F3D147420F3009E27DE /* Dream.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A8F3C147420F3009E27DE /* Dream.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55528F99143B921A001AC777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55528F63143B9219001AC777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55528F6B143B9219001AC777;
+			remoteInfo = "Dream Journal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55528F6C143B9219001AC777 /* Dream Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55528F70143B921A001AC777 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55528F72143B921A001AC777 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55528F74143B921A001AC777 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55528F78143B921A001AC777 /* Dream Journal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dream Journal-Info.plist"; sourceTree = "<group>"; };
+		55528F7A143B921A001AC777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55528F7C143B921A001AC777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55528F7E143B921A001AC777 /* Dream Journal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dream Journal-Prefix.pch"; sourceTree = "<group>"; };
+		55528F7F143B921A001AC777 /* Dream_JournalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dream_JournalAppDelegate.h; sourceTree = "<group>"; };
+		55528F80143B921A001AC777 /* Dream_JournalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dream_JournalAppDelegate.m; sourceTree = "<group>"; };
+		55528F83143B921A001AC777 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		55528F85143B921A001AC777 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		55528F86143B921A001AC777 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		55528F89143B921A001AC777 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		55528F8B143B921A001AC777 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		55528F8C143B921A001AC777 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		55528F93143B921A001AC777 /* Dream JournalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream JournalTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55528F94143B921A001AC777 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		55528F9D143B921A001AC777 /* Dream JournalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dream JournalTests-Info.plist"; sourceTree = "<group>"; };
+		55528F9F143B921A001AC777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55528FA1143B921A001AC777 /* Dream_JournalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dream_JournalTests.h; sourceTree = "<group>"; };
+		55528FA3143B921A001AC777 /* Dream_JournalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dream_JournalTests.m; sourceTree = "<group>"; };
+		559A8F371474206D009E27DE /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		559A8F3A14742079009E27DE /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		559A8F3B147420EB009E27DE /* Dream.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Dream.h; sourceTree = "<group>"; };
+		559A8F3C147420F3009E27DE /* Dream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dream.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55528F69143B9219001AC777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55528F71143B921A001AC777 /* UIKit.framework in Frameworks */,
+				55528F73143B921A001AC777 /* Foundation.framework in Frameworks */,
+				55528F75143B921A001AC777 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55528F8F143B921A001AC777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55528F95143B921A001AC777 /* SenTestingKit.framework in Frameworks */,
+				55528F96143B921A001AC777 /* UIKit.framework in Frameworks */,
+				55528F97143B921A001AC777 /* Foundation.framework in Frameworks */,
+				55528F98143B921A001AC777 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55528F61143B9219001AC777 = {
+			isa = PBXGroup;
+			children = (
+				55528F76143B921A001AC777 /* Dream Journal */,
+				55528F9B143B921A001AC777 /* Dream JournalTests */,
+				55528F6F143B921A001AC777 /* Frameworks */,
+				55528F6D143B9219001AC777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55528F6D143B9219001AC777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55528F6C143B9219001AC777 /* Dream Journal.app */,
+				55528F93143B921A001AC777 /* Dream JournalTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55528F6F143B921A001AC777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55528F70143B921A001AC777 /* UIKit.framework */,
+				55528F72143B921A001AC777 /* Foundation.framework */,
+				55528F74143B921A001AC777 /* CoreGraphics.framework */,
+				55528F94143B921A001AC777 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55528F76143B921A001AC777 /* Dream Journal */ = {
+			isa = PBXGroup;
+			children = (
+				559A8F3C147420F3009E27DE /* Dream.m */,
+				559A8F3B147420EB009E27DE /* Dream.h */,
+				559A8F3A14742079009E27DE /* AddViewController.h */,
+				559A8F371474206D009E27DE /* AddViewController.m */,
+				55528F7F143B921A001AC777 /* Dream_JournalAppDelegate.h */,
+				55528F80143B921A001AC777 /* Dream_JournalAppDelegate.m */,
+				55528F82143B921A001AC777 /* MainWindow.xib */,
+				55528F85143B921A001AC777 /* DetailViewController.h */,
+				55528F86143B921A001AC777 /* DetailViewController.m */,
+				55528F88143B921A001AC777 /* DetailView.xib */,
+				55528F8B143B921A001AC777 /* RootViewController.h */,
+				55528F8C143B921A001AC777 /* RootViewController.m */,
+				55528F77143B921A001AC777 /* Supporting Files */,
+			);
+			path = "Dream Journal";
+			sourceTree = "<group>";
+		};
+		55528F77143B921A001AC777 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55528F78143B921A001AC777 /* Dream Journal-Info.plist */,
+				55528F79143B921A001AC777 /* InfoPlist.strings */,
+				55528F7C143B921A001AC777 /* main.m */,
+				55528F7E143B921A001AC777 /* Dream Journal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55528F9B143B921A001AC777 /* Dream JournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				55528FA1143B921A001AC777 /* Dream_JournalTests.h */,
+				55528FA3143B921A001AC777 /* Dream_JournalTests.m */,
+				55528F9C143B921A001AC777 /* Supporting Files */,
+			);
+			path = "Dream JournalTests";
+			sourceTree = "<group>";
+		};
+		55528F9C143B921A001AC777 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55528F9D143B921A001AC777 /* Dream JournalTests-Info.plist */,
+				55528F9E143B921A001AC777 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55528F6B143B9219001AC777 /* Dream Journal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55528FA7143B921A001AC777 /* Build configuration list for PBXNativeTarget "Dream Journal" */;
+			buildPhases = (
+				55528F68143B9219001AC777 /* Sources */,
+				55528F69143B9219001AC777 /* Frameworks */,
+				55528F6A143B9219001AC777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dream Journal";
+			productName = "Dream Journal";
+			productReference = 55528F6C143B9219001AC777 /* Dream Journal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55528F92143B921A001AC777 /* Dream JournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55528FAA143B921A001AC777 /* Build configuration list for PBXNativeTarget "Dream JournalTests" */;
+			buildPhases = (
+				55528F8E143B921A001AC777 /* Sources */,
+				55528F8F143B921A001AC777 /* Frameworks */,
+				55528F90143B921A001AC777 /* Resources */,
+				55528F91143B921A001AC777 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55528F9A143B921A001AC777 /* PBXTargetDependency */,
+			);
+			name = "Dream JournalTests";
+			productName = "Dream JournalTests";
+			productReference = 55528F93143B921A001AC777 /* Dream JournalTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55528F63143B9219001AC777 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 55528F66143B9219001AC777 /* Build configuration list for PBXProject "Dream Journal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55528F61143B9219001AC777;
+			productRefGroup = 55528F6D143B9219001AC777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55528F6B143B9219001AC777 /* Dream Journal */,
+				55528F92143B921A001AC777 /* Dream JournalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55528F6A143B9219001AC777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55528F7B143B921A001AC777 /* InfoPlist.strings in Resources */,
+				55528F84143B921A001AC777 /* MainWindow.xib in Resources */,
+				55528F8A143B921A001AC777 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55528F90143B921A001AC777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55528FA0143B921A001AC777 /* InfoPlist.strings in Resources */,
+				55528FA2143B921A001AC777 /* Dream_JournalTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55528F91143B921A001AC777 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55528F68143B9219001AC777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55528F7D143B921A001AC777 /* main.m in Sources */,
+				55528F81143B921A001AC777 /* Dream_JournalAppDelegate.m in Sources */,
+				55528F87143B921A001AC777 /* DetailViewController.m in Sources */,
+				55528F8D143B921A001AC777 /* RootViewController.m in Sources */,
+				559A8F381474206D009E27DE /* AddViewController.m in Sources */,
+				559A8F3D147420F3009E27DE /* Dream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55528F8E143B921A001AC777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55528FA4143B921A001AC777 /* Dream_JournalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55528F9A143B921A001AC777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55528F6B143B9219001AC777 /* Dream Journal */;
+			targetProxy = 55528F99143B921A001AC777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55528F79143B921A001AC777 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55528F7A143B921A001AC777 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55528F82143B921A001AC777 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55528F83143B921A001AC777 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		55528F88143B921A001AC777 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55528F89143B921A001AC777 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+		55528F9E143B921A001AC777 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55528F9F143B921A001AC777 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55528FA5143B921A001AC777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		55528FA6143B921A001AC777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55528FA8143B921A001AC777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dream Journal/Dream Journal-Prefix.pch";
+				INFOPLIST_FILE = "Dream Journal/Dream Journal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55528FA9143B921A001AC777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dream Journal/Dream Journal-Prefix.pch";
+				INFOPLIST_FILE = "Dream Journal/Dream Journal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55528FAB143B921A001AC777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dream Journal.app/Dream Journal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dream Journal/Dream Journal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dream JournalTests/Dream JournalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		55528FAC143B921A001AC777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dream Journal.app/Dream Journal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dream Journal/Dream Journal-Prefix.pch";
+				INFOPLIST_FILE = "Dream JournalTests/Dream JournalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55528F66143B9219001AC777 /* Build configuration list for PBXProject "Dream Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55528FA5143B921A001AC777 /* Debug */,
+				55528FA6143B921A001AC777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55528FA7143B921A001AC777 /* Build configuration list for PBXNativeTarget "Dream Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55528FA8143B921A001AC777 /* Debug */,
+				55528FA9143B921A001AC777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55528FAA143B921A001AC777 /* Build configuration list for PBXNativeTarget "Dream JournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55528FAB143B921A001AC777 /* Debug */,
+				55528FAC143B921A001AC777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55528F63143B9219001AC777 /* Project object */;
+}
